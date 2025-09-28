@@ -1,6 +1,6 @@
 function onScanSuccess(decodedText, decodedResult) {
     // succesfull scan handling
-    document.querySelector('result').innerHTML= `${decodedText}`;
+   document.querySelector('result').innerHTML= `${decodedText}`;
     console.log(`Code matched = ${decodedText}`, decodedResult);
 }
 
